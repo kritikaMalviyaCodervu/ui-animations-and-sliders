@@ -1,0 +1,232 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ :root{
+    --green-color:rgb(77, 153, 77);
+}
+.container {
+    height: 100vh;
+    width: 100vw;
+    animation: slide 40s infinite ;
+    background-repeat: repeat;
+}
+input::placeholder{
+     color: rgb(236, 230, 230);
+     padding-left: 8px;
+
+}
+input:focus{
+    outline: none;
+}
+body{
+    overflow: hidden;
+}
+@keyframes slide {
+
+
+    0% {
+        background-image: url(10012.jpg);
+    }
+
+    10% {
+        background-image: url(10013.jpg);
+    }
+
+    20% {
+        background-image: url(10014.jpg);
+    }
+
+    30% {
+        background-image: url(10015.jpg);
+    }
+
+    40% {
+        background-image: url(10016.jpg);
+    }
+
+    50% {
+        background-image: url(10017.jpg);
+    }
+
+    60% {
+        background-image: url(10018.jpg);
+    }
+
+    70% {
+        background-image: url(10019.jpg);
+    }
+
+    80% {
+        background-image: url(10020.jpg);
+    }
+
+    90% {
+        background-image: url(10021.jpg);
+    }
+
+    100% {
+        background-image: url(10022.jpg);
+    }
+
+    110% {
+        background-image: url(10023.jpg);
+    }
+
+    120% {
+        background-image: url(10024.jpg);
+    }
+
+    130% {
+        background-image: url(10025.jpg);
+    }
+} 
+.font{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.pulse{
+    animation: pulse 3s infinite ;
+}
+@keyframes pulse {
+    0%, 100%{transform:scale(0.9) ;}
+    50%{transform: scale(1);}
+}
+.logosize {
+    height: 20px;
+    width: 20px;   
+}
+.logosize:hover {
+    transition: all .4s ease-in-out;
+    height: 22px;
+    width: 22px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+.hd1 {
+    height: 170px;
+}
+.hd2 {
+    color:var(--green-color);
+    font-family: "Oswald", sans-serif;
+    text-shadow: 0 1px 1px rgb(32, 31, 31);
+    font-size: 25px;
+    position: absolute;
+    top: 51px;
+}
+.hd3 {
+    color: rgb(13, 14, 13);
+    font-size: 12px;
+    max-width: 240px;
+    text-align: center;
+    position: absolute;
+    top: 87px;
+}
+.hd30 {
+    color: rgb(13, 14, 13);
+    font-size: 12px;
+    position: absolute;
+    top: 95px;
+}
+.hd4 {
+    display: grid;
+    grid-template-columns: repeat(5, 18px);
+    gap: 5px;
+    position: absolute;
+    top: 120px;
+}
+.zerosize{
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+}
+.arrow1 {
+    width: 40px;
+    height: 38px;
+    background-color: var(--green-color);
+    border-radius: 0 8px 8px 0;
+    border: 1px solid rgb(133, 129, 129);
+    transition: width 2s;
+    display: inline-block;
+    align-items: center;
+    transition: all 0.6s;
+    position: relative;
+    z-index: 2;
+}
+.ar1{
+    display: none;
+    color: white;
+}
+.arrow1:hover {
+    display: block;
+    width: 76px;
+}
+.arrow1:hover .ar1 {
+    display: inline-block;
+    transition: all 0.6s;
+}
+.btnD {
+    height: 70px;
+    width: 250px;
+    background-color: #08212d4f;
+    border: 1px solid rgb(133, 129, 129);
+    color: rgb(226, 216, 216);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border-radius: 35px;
+    margin-left: -15px;
+    position: relative;
+    z-index: 2;
+}
+.mt-15{
+    margin-top: 15px;
+}
+.cloud {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(10010.png);
+    background-position: 0 center;
+    animation: movecloud 20s linear infinite;
+    background-repeat: repeat-x;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    position: absolute;
+    top: 38px;
+    z-index: 1;  
+}
+@keyframes movecloud {
+    0%{background-position: -200px center;}
+    100%{background-position: 100% center;}
+}
+.input1 {
+    height: 38px;
+    width: 300px;
+    background-color: #05344959;
+    border: 1px solid rgb(133, 129, 129);
+     border-radius: 15px 0 0 0;
+    color: rgb(225, 237, 238);
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    z-index: 2;
+}
+.i01 {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.input2 {
+    height: 20px;
+    width: 55px;
+    background-color: #284c5e9d ;
+    box-shadow: 0px 3px 0px 0px  #234254ec;
+    border: none;
+    color: rgb(226, 216, 216);
+    border-radius: 5px;
+    font-size: 11px;
+}
+.input3 {                                 
+    width: 150px;
+}
